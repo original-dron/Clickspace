@@ -1,0 +1,32 @@
+void main() {
+  /*
+      Name: main()
+      Parameters: None
+      Returns: None
+      Date: 2021.07.18
+      Description:
+        - Print number on each line
+        - Number Mod 3 print 'Bud'
+        - Number Mod 5 print 'vue'
+        - Number Both Mod 3 and 5 print 'Budvue should consider Darren Toombs for this position'
+   */
+        
+  for (int li_Counter = 1; li_Counter < 100; li_Counter++) {
+    if (li_Counter % 3 ==0)
+    {
+      if (li_Counter%5==0)
+        print('Budvue should consider Darren Toombs for this position');
+      else
+        print('Bud');
+    }
+    else
+    {   
+      if (li_Counter%5==0)
+        print('vue');
+      else
+        print('${li_Counter}');
+    }
+  }
+}
+
+
